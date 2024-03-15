@@ -34,7 +34,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:3000/customer/6",
+					"raw": "http://127.0.0.1:3000/customer/9877",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -45,7 +45,7 @@
 					"port": "3000",
 					"path": [
 						"customer",
-						"6"
+						"9877"
 					]
 				}
 			},
@@ -64,7 +64,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"CustomerID\" : 64217,\r\n    \"Gender\" : \"Male\",\r\n    \"Age\" :22,\r\n    \"AnnualIncome\" : 526782,\r\n    \"SpendingScore\" : 25,\r\n    \"Profession\" : \"Bakckend Developer\",\r\n    \"WorkExperience\" : 2,\r\n    \"FamilySize\" : 9\r\n\r\n}",
+					"raw": "{\r\n    \"CustomerID\" : 9877,\r\n    \"Gender\" : \"Male\",\r\n    \"Age\" :22,\r\n    \"AnnualIncome\" : 526782,\r\n    \"SpendingScore\" : 25,\r\n    \"Profession\" : \"Frontkend Developer\",\r\n    \"WorkExperience\" : 2,\r\n    \"FamilySize\" : 9\r\n\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -101,7 +101,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"AnnualIncome\" : 99999\r\n}",
+					"raw": "{\r\n    \"Profession\" : \"Frontend Engineer\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -109,7 +109,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:3000/update_profession/1",
+					"raw": "http://127.0.0.1:3000/update_profession/9877",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -120,7 +120,7 @@
 					"port": "3000",
 					"path": [
 						"update_profession",
-						"1"
+						"9877"
 					]
 				}
 			},
