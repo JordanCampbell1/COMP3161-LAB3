@@ -110,8 +110,8 @@ def update_address(customer_id):
                                         database='lab3')
         cursor = cnx.cursor()
         content = request.json
-        annualincome = int(content['AnnualIncome'])
-        cursor.execute(f"UPDATE Customers SET AnnualIncome={annualincome} WHERE CustomerID={customer_id}")
+        profession = content['Profession']
+        cursor.execute(f"UPDATE Customers SET Profession= '{profession}' WHERE CustomerID={customer_id}")
         #print(f"UPDATE Customers SET AnnualIncome={annualincome} WHERE CustomerID={customer_id}")
         cnx.commit()
         cursor.close()
